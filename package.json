@@ -1,0 +1,40 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@types/jest": "^23.3.13",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.12.2",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.3.3333"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/?(*.)+(spec|test).ts?(x)"
+    ]
+  }
+}
